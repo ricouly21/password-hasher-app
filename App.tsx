@@ -1,12 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
+
+import HomeView from "./src/home/home.view";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
-  );
+    <HomeView>
+
+    </HomeView>
+  )
+  // return (
+  //   <View style={styles.container}>
+  //     <Text>Open up App.tsx to start working on your app!</Text>
+  //   </View>
+  // );
 }
 
 const styles = StyleSheet.create({
