@@ -22,7 +22,17 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ricouly.passwordhasherapp",
+      "buildNumber": "1.0",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "userInterfaceStyle": "automatic",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ricouly.passwordhasherapp",
+      "versionCode": 1
     }
   }
 }
